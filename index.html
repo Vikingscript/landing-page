@@ -1,112 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Properties Listing</title>
-		<style>
-			body {
-				font-family: Arial, sans-serif;
-				padding: 20px;
-				text-align: center;
-			}
-
-			.property {
-				margin: 20px;
-				padding: 10px;
-				border: 1px solid #ddd;
-				display: inline-block;
-				width: 300px;
-				vertical-align: top;
-			}
-
-			.property img {
-				max-width: 100%;
-				height: auto;
-			}
-
-			.property a {
-				display: block;
-				margin: 10px 0;
-				color: #007bff;
-				/* Link color */
-				text-decoration: none;
-				border: 2px solid transparent;
-				/* Adds a border that is invisible to maintain layout */
-			}
-
-			.property a:hover,
-			.property a:focus {
-				color: #ff0000;
-				/* Hover and focus color change */
-				text-decoration: underline;
-				/* Underline on hover and focus */
-				cursor: pointer;
-				/* Cursor changes to a hand icon */
-				border-color: #ff0000;
-				/* Shows a border around the link for additional emphasis */
-			}
-
-			.footer-text {
-				text-align: center;
-				margin-top: 40px;
-				padding: 20px;
-				font-size: 14px;
-			}
-
-			.footer-image {
-				margin-top: 40px;
-			}
-		</style>
-	</head>
-
-	<body>
-		<h1>Check Out These Properties</h1>
-		<div class="property">
-			<img src="https://photos.zillowstatic.com/fp/a7e1d12dfad2cd70cbd1247625216df4-cc_ft_384.webp">
-			<a href="https://www.zillow.com/homedetails/0-Oasis-Trl-Palm-Desert-CA-92260/2104671519_zpid/">
-				APN 628-330-002<br>
-				1.80 Acres<br>
-				MLS 219108268<br>
-				<strong>View Details</strong> <!-- Added CTA -->
-			</a>
-		</div>
-		<div class="property">
-			<img src="https://photos.zillowstatic.com/fp/8c3addac63bef821922a5554013d97da-cc_ft_768.webp" alt="Property 2">
-			<a href="https://www.zillow.com/homedetails/71120-Oasis-Trl-Palm-Desert-CA-92260/18085996_zpid/">
-				APN 628-330-003<br>
-				1.2 Acres<br>
-				MLS 219108273<br>
-				<strong>View Details</strong> <!-- Added CTA -->
-			</a>
-		</div>
-		<div class="property">
-			<img src="https://photos.zillowstatic.com/fp/8dbf220de9bbdd41a4971401f95d2d8d-cc_ft_768.webp" alt="Property 3">
-			<a href="https://www.zillow.com/homedetails/3-Oasis-Trl-Palm-Desert-CA-92260/344568081_zpid/">
-				APN 628-330-004<br>
-				2.0 Acres<br>
-				MLS 219108276<br>
-				<strong>View Details</strong> <!-- Added CTA -->
-			</a>
-		</div>
-		<br>
-		Welcome to Cahuilla Hills, the hidden gem of the Coachella Valley.<br>
-		Enjoy the quiet of the beautiful desert all within minutes of Palm Desert and the El Paseo shopping and dining district. Experience beautiful city lights at night, big horn sheep roaming freely, American Kestrels, owls, and all manner of desert creatures thriving in and around this paradise. With nearby access to hiking trails in the neighborhood and outstanding views everywhere you look, this piece of paradise is sure to please. These three parcels are contiguous for a total of 5 acres and may be purchased in any combination. Buyer and buyer's agent to conduct due diligence with county planning department and local utilities regarding any desired grading, permitting, restrictions, and permissions.<br><br>
-		</br>
-		<img src="https://lh3.googleusercontent.com/pw/AP1GczMob64803MfDMemmnFUl5gw4CBFT96_qVk00M3ejtJuaADf_wKJzfE-5946oo9h2XUFR3F0pTIaSZlZTnjus7kuKGi9aM8pZqs1DabSDluC0XaXmcRiSvVa3W_4Nx4jf6YuYFiazlNSGktJcTPyFlNaVtTb8ZxjTub95CE1jp7hzg0UXobQasnWngcUk4X5UEA_iTnU_JOKEqRA_dY0DHSG5RG70VqPPadJbnzJdBEv7DKBLuebIq6ikMrbGQgtVVDwpWmiyupik-p2qsYpoYvmYPvKgSsQiDzX5-r2eW7gjY__Tmwjyfbfi6LWjkEBqX-APtSY6_FC0Fo4C9IV9tL_jVe26ubzQvvs0BNGmtz3UU1L90xDWZas0w4wUa_LoXcCldPQgYdPrB31B9u6eB9znNQshg1BHiyYlmcA-A-uXqJE9cCAbNhK2bg9rGtfXN2zDGiw_DFQgWmkalXCGBUwTPYE6Jcjy1xglrnHtbxAj9B3X8unq7RBxgKtxAqO4TYwje8ecFgcjJgLjNTRunprpASTVfe8CF-M24r4mvKSLAQClwjj5Av5xsqZj0QyQcBavduL9oZDfVl3nMFn-dhGofN_-WtaFQGERc5TPGDB60ya9rn3ad-wHr4g1yvLo7tlsGid2_nTLmITPOUtu60wjoCO5NGRhLgCbsrzgUpAlRnIwnTtkGc9znX6oW8JHFYJq5UdY5Kwiu7uHX9sAIZ4Ha1ksVxeFvOAQBAQAJl_iNVAtcB-KcKEZcCUa6Uumf-lexlq5Pc5EWy6JARv2qelZXOHmn44q_pfmEpZrK84sSm5ps42_DYG1s-a64yL4OtEBG-HUKooVqVSuyOuabzsPwz3REkNljJOMQXOTramZ9JOjCYVJylXd1ThY-9RW71lh5PI5BtRDK-_Jn370jswCg=w1215-h911-s-no-gm?authuser=0" alt="Property Overview" style="max-width: 40%; height: auto; margin-top: 40px;">
-
-		<!-- Repeat for other properties as needed -->
-		<div class="footer-text">
-			Please Contact Paul Nordman<br>
-			Cell: 760-343-6686 or<br>
-			Email: <a href="mailto:nordman1010@gmail.com">nordman1010@gmail.com</a><br>
-			License: 01487202
-		</div>
-		<img src="https://p.rdcpix.com/v01/ad0d76468-m0l.jpg" alt="Additional Property Image" style="max-width: 100%; height: auto; margin-top: 40px;">
-		<div class="footer-image">
-			<img src="https://lh3.googleusercontent.com/proxy/QTiaciESjkPISkoZYlyBD1ARH0VM8O7EuheBZFIequs0qlI7aO0SYwP3tfB0h5pdS9AEHEHE80YaKg9pIvg4nkljmuppVWk2QNxYe9cWaFppbKA" alt="Cahuilla Hills">
-		</div>
-	</body>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .property {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: inline-block;
+            width: 300px;
+            vertical-align: top;
+        }
+        .property img {
+            max-width: 100%;
+            height: auto;
+        }
+        .property a {
+            display: block;
+            margin: 10px 0;
+            color: #007bff; /* Link color */
+            text-decoration: none;
+            border: 2px solid transparent; /* Adds a border that is invisible to maintain layout */
+        }
+        .property a:hover, .property a:focus {
+            color: #ff0000; /* Hover and focus color change */
+            text-decoration: underline; /* Underline on hover and focus */
+            cursor: pointer; /* Cursor changes to a hand icon */
+            border-color: #ff0000; /* Shows a border around the link for additional emphasis */
+        }
+        .footer-text {
+            text-align: center;
+            margin-top: 20px; /* Adjusted margin-top */
+            padding: 20px;
+            font-size: 14px;
+        }
+        .footer-image img, img[alt="Property Overview"] {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px; /* Adjusted margin-top */
+        }
+        img[alt="Property Overview"] {
+            max-width: 40%; /* Specific style for the overview image */
+        }
+    </style>
+</head>
+<body>
+    <h1>Check Out These Properties</h1>
+    <div class="property">
+        <img src="https://photos.zillowstatic.com/fp/a7e1d12dfad2cd70cbd1247625216df4-cc_ft_384.webp">
+        <a href="https://www.zillow.com/homedetails/0-Oasis-Trl-Palm-Desert-CA-92260/2104671519_zpid/">
+            APN 628-330-002<br>
+            1.80 Acres<br>
+            MLS 219108268<br>
+            <strong>View Details</strong>
+        </a>
+    </div>
+    <div class="property">
+        <img src="https://photos.zillowstatic.com/fp/8c3addac63bef821922a5554013d97da-cc_ft_768.webp" alt="Property 2">
+        <a href="https://www.zillow.com/homedetails/71120-Oasis-Trl-Palm-Desert-CA-92260/18085996_zpid/">
+            APN 628-330-003<br>
+            1.2 Acres<br>
+            MLS 219108273<br>
+            <strong>View Details</strong>
+        </a>
+    </div>
+    <div class="property">
+        <img src="https://photos.zillowstatic.com/fp/8dbf220de9bbdd41a4971401f95d2d8d-cc_ft_768.webp" alt="Property 3">
+        <a href="https://www.zillow.com/homedetails/3-Oasis-Trl-Palm-Desert-CA-92260/344568081_zpid/">
+            APN 628-330-004<br>
+            2.0 Acres<br>
+            MLS 219108276<br>
+            <strong>View Details</strong>
+        </a>
+    </div>
+    <br>
+    Welcome to Cahuilla Hills, the hidden gem of the Coachella Valley.<br>
+    Enjoy the quiet of the beautiful desert all within minutes of Palm Desert and the El Paseo shopping and dining district. Experience beautiful city lights at night, big horn sheep roaming freely, American Kestrels, owls, and all manner of desert creatures thriving in and around this paradise. With nearby access to hiking trails in the neighborhood and outstanding views everywhere you look, this piece of paradise is sure to please. These three parcels are contiguous for a total of 5 acres and may be purchased in any combination. Buyer and buyer's agent to conduct due diligence with county planning department and local utilities regarding any desired grading, permitting, restrictions, and permissions.<br><br>
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczMob64803MfDMemmnFUl5gw4CBFT96_qVk00M3ejtJuaADf_wKJzfE-5946oo9h2XUFR3F0pTIaSZlZTnjus7kuKGi9aM8pZqs1DabSDluC0XaXmcRiSvVa3W_4Nx4jf6YuYFiazlNSGktJcTPyFlNaVtTb8ZxjTub95CE1jp7hzg0UXobQasnWngcUk4X5UEA_iTnU_JOKEqRA_dY0DHSG5RG70VqPPadJbnzJdBEv7DKBLuebIq6ikMrbGQgtVVDwpWmiyupik-p2qsYpoYvmYPvKgSsQiDzX5-r2eW7gjY__Tmwjyfbfi6LWjkEBqX-APtSY6_FC0Fo4C9IV9tL_jVe26ubzQvvs0BNGmtz3UU1L90xDWZas0w4wUa_LoXcCldPQgYdPrB31B9u6eB9znNQshg1BHiyYlmcA-A-uXqJE9cCAbNhK2bg9rGtfXN2zDGiw_DFQgWmkalXCGBUwTPYE6Jcjy1xglrnHtbxAj9B3X8unq7RBxgKtxAqO4TYwje8ecFgcjJgLjNTRunprpASTVfe8CF-M24r4mvKSLAQClwjj5Av5xsqZj0QyQcBavduL9oZDfVl3nMFn-dhGofN_-WtaFQGERc5TPGDB60ya9rn3ad-wHr4g1yvLo7tlsGid2_nTLmITPOUtu60wjoCO5NGRhLgCbsrzgUpAlRnIwnTtkGc9znX6oW8JHFYJq5UdY5Kwiu7uHX9sAIZ4Ha1ksVxeFvOAQBAQAJl_iNVAtcB-KcKEZcCUa6Uumf-lexlq5Pc5EWy6JARv2qelZXOHmn44q_pfmEpZrK84sSm5ps42_DYG1s-a64yL4OtEBG-HUKooVqVSuyOuabzsPwz3REkNljJOMQXOTramZ9JOjCYVJylXd1ThY-9RW71lh5PI5BtRDK-_Jn370jswCg=w1215-h911-s-no-gm?authuser=0" alt="Property Overview" style="max-width: 40%; height: auto; margin-top: 20px;">
+    <div class="footer-text">
+        Please Contact Paul Nordman<br>
+        Cell: 760-343-6686 or<br>
+        Email: <a href="mailto:nordman1010@gmail.com">nordman1010@gmail.com</a><br>
+        License: 01487202
+    </div>
+    <img src="https://p.rdcpix.com/v01/ad0d76468-m0l.jpg" alt="Additional Property Image" style="max-width: 100%; height: auto; margin-top: 20px;">
+    <div class="footer-image">
+        <img src="https://lh3.googleusercontent.com/proxy/QTiaciESjkPISkoZYlyBD1ARH0VM8O7EuheBZFIequs0qlI7aO0SYwP3tfB0h5pdS9AEHEHE80YaKg9pIvg4nkljmuppVWk2QNxYe9cWaFppbKA" alt="Cahuilla Hills" style="max-width: 100%; height: auto; margin-top: 20px;">
+    </div>
+</body>
 </html>
