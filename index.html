@@ -25,8 +25,15 @@
         .property a {
             display: block;
             margin: 10px 0;
-            color: #007bff;
+            color: #007bff; /* Link color */
             text-decoration: none;
+            border: 2px solid transparent; /* Adds a border that is invisible to maintain layout */
+        }
+        .property a:hover, .property a:focus {
+            color: #ff0000; /* Hover and focus color change */
+            text-decoration: underline; /* Underline on hover and focus */
+            cursor: pointer; /* Cursor changes to a hand icon */
+            border-color: #ff0000; /* Shows a border around the link for additional emphasis */
         }
         .footer-text {
             text-align: center;
@@ -46,15 +53,17 @@
         <a href="https://www.zillow.com/homedetails/0-Oasis-Trl-Palm-Desert-CA-92260/2104671519_zpid/">
             APN 628-330-002<br>
             1.80 Acres<br>
-            MLS 219108268
+            MLS 219108268<br>
+            <strong>View Details</strong> <!-- Added CTA -->
         </a>
     </div>
-    <div class="property">
+     <div class="property">
         <img src="https://photos.zillowstatic.com/fp/8c3addac63bef821922a5554013d97da-cc_ft_768.webp" alt="Property 2">
         <a href="https://www.zillow.com/homedetails/71120-Oasis-Trl-Palm-Desert-CA-92260/18085996_zpid/">
             APN 628-330-003<br>
             1.2 Acres<br>
             MLS 219108273
+            <strong>View Details</strong> <!-- Added CTA -->
         </a>
     </div>
     <div class="property">
@@ -63,8 +72,11 @@
             APN 628-330-004<br>
             2.0 Acres<br>
             MLS 219108276
+            <strong>View Details</strong> <!-- Added CTA -->
         </a>
     </div>
+
+    <!-- Repeat for other properties as needed -->
     <div class="footer-text">
         Welcome to Cahuilla Hills, the hidden gem of the Coachella Valley.<br>
         Enjoy the quiet of the beautiful desert all within minutes of Palm Desert and the El Paseo shopping and dining district. Experience beautiful city lights at night, big horn sheep roaming freely, American Kestrels, owls, and all manner of desert creatures thriving in and around this paradise. With nearby access to hiking trails in the neighborhood and outstanding views everywhere you look, this piece of paradise is sure to please. These three parcels are contiguous for a total of 5 acres and may be purchased in any combination. Buyer and buyer's agent to conduct due diligence with county planning department and local utilities regarding any desired grading, permitting, restrictions, and permissions.<br><br>
