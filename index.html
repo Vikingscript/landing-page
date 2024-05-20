@@ -64,14 +64,17 @@
 
         img[alt="Additional Property Image"],
         .footer-image img {
-            margin-top: 20px; /* Uniform margin for all images */
+            width: auto; /* Allow the image to be its natural size */
+            max-width: 100%; /* Make sure the image doesn't exceed the container's width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Center the image */
+            margin: 20px auto; /* Center the image horizontally with margin */
         }
 
         @media (min-width: 768px) {
             img[alt="Additional Property Image"],
             .footer-image img {
                 max-width: 33.33%; /* Limit the width on larger screens to one-third of current size */
-                margin: 20px auto; /* Center the images */
             }
         }
     </style>
