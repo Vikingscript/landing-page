@@ -56,16 +56,20 @@
             color: #000; /* Ensuring readability against the lighter background */
         }
 
-        img[alt="Property Overview"],
+        img[alt="Property Overview"] {
+            width: 100%; /* Adjusting image to be responsive */
+            height: auto; /* Maintain aspect ratio */
+            margin-top: 20px; /* Uniform margin for the image */
+        }
+
         img[alt="Additional Property Image"],
         .footer-image img {
-            width: 100%; /* Adjusting all images to be responsive */
+            width: 100%; /* Adjusting images to be responsive */
             height: auto; /* Maintain aspect ratio */
             margin-top: 20px; /* Uniform margin for all images */
         }
 
         @media (min-width: 768px) {
-            img[alt="Property Overview"],
             img[alt="Additional Property Image"],
             .footer-image img {
                 max-width: 30%; /* Limit the width on larger screens */
