@@ -63,6 +63,15 @@
             height: auto; /* Maintain aspect ratio */
             margin-top: 20px; /* Uniform margin for all images */
         }
+
+        @media (min-width: 768px) {
+            img[alt="Property Overview"],
+            img[alt="Additional Property Image"],
+            .footer-image img {
+                max-width: 50%; /* Limit the width on larger screens */
+                margin: 20px auto; /* Center the images */
+            }
+        }
     </style>
 </head>
 
